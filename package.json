@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "practicing typescript with blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/wnsgh605/typescript",
+  "author": "KIM JUNHO <wnsgh605@nate.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^4.2.2"
+  }
+}
